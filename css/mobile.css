@@ -1,0 +1,167 @@
+.container-cellphone{
+    width: 388px;
+    background-color: #fff;
+    border: solid 1px #333;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.grid-cellphone{
+    display: grid;
+    grid-template-columns: repeat(4, 71px);
+    grid-column-gap: 37px;
+}
+
+#main-header-cellphone{
+    margin-top: 10px;
+    height: 148px;
+    width: 388px;
+}
+
+#header-logo-mobile {
+    height: 121px;
+    width: 157px;
+    grid-column: 1/2;
+    margin-left: 15px;
+}
+
+
+
+#header-nav-mobile{
+    grid-column: 3/-1;
+    margin-left: 55px;
+}
+
+#header-nav-mobile label img{
+    width: 71px;
+    height: 71px;
+    transition: all .5s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#header-nav-mobile input{
+    display: none;
+}
+
+
+/* 4. ---Main Hero Image--- */
+
+
+#hero-cellphone{
+    margin-top: 10px;
+}
+
+#hero-image-cellphone{
+    grid-column: 1/-1;
+    width: 389px;
+    height: 801px;
+    grid-row: 1/3;   
+    background-color: #DF6F8F;
+}
+
+#hero-product-cellphone{
+    height: 60%;
+    grid-row: 1/3;
+    grid-column: 1/-1;
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* Info-box */
+
+
+#info-box-cellphone{
+    grid-column: 1/-1;
+    width: 388px;
+    height: 700px;
+    grid-row: 1/3;   
+}
+
+#info-product-cellphone{
+    grid-row: 1/3;
+    grid-column: 1/7;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#img-info-product{
+    width: 314px;
+    height: 349px;
+}
+
+#info-text-cellphone{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 388px;
+    height: 250px;
+    grid-row: 1/3;
+    grid-column: 1/-1;
+}
+
+#info-text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    color: black;
+} 
+
+
+#button-info-cellphone-box{
+    grid-row: 1/3;
+    grid-column: 1/-1;
+    position: relative;
+}
+
+#button-info-cellphone {
+    height: 63px;
+    width: 152px;
+    position: absolute;
+    left: 45%;  
+    top: 220%;
+}
+
+#button-info-cellphone h3{
+    font-size: 15pt;
+    font-weight: 400;
+}
+
+
+/* 5. ---Features--- */
+
+#features-con{
+    margin-top: 45px;
+}
+
+.feature{
+    width: 400px;
+    height: 300px;
+}
+
+/* Reviews */
+
+
+
+.review-cellphone{
+    width: 388px;
+    height: 812.35px;
+    background-color: #90C5DE;
+    align-content: center;
+}
+
+.review img{
+    width: 35%;
+}
+
+.review p{
+    font-size: 15pt;
+    margin-top: 0px;
+}
