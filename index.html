@@ -25,12 +25,26 @@
         </header>
         <main>
             <section id="hero" class="grid">
-                <div id="hero-image" class="box-color">
+                <div id="hero-image">
                 </div>
-                <div id="buy-now" class="box-color2"></div>
-                <div id="tag-line" class="box-color2">
-                    <h2>Take the ride of your life</h2>
+                <div id="hero-product">
+                    <img src="img/products.png" alt="Miss Kiwi Drinks" id="img-hero">
                 </div>
+            </section>
+
+
+            <section id="info" class="grid">
+                <div id="info-box">
+                </div>
+                <div id="info-product">
+                    <img src="img/infoproduct.png" alt="Miss Kiwi Drink in the beach" id="img-info">
+                </div>
+                <div id="info-text">
+                    <p>Lorem Ipsum is simply dummy text <br> of the printing and typesetting <br> industry. Lorem Ipsum has been the <br> industry's standard dummy text<br> ever since the 1500s, when an <br> unknown printer took.</p>
+                </div>
+
+                    <a id="button-info" class="buttons" href="#"><h3>READ MORE</h3></a>
+
             </section>
 
             <section id="features-con" class="grid">
@@ -44,16 +58,57 @@
                 <section class="feature box-color">
                     <h3>Sport Braking System</h3>
                 </section>
+                <section class="feature box-color">
+                    <h3>Leather Interior</h3>
+                </section>
+                <section class="feature box-color">
+                    <h3>Electric Motor</h3>
+                </section>
+                <section class="feature box-color">
+                    <h3>Sport Braking System</h3>
+                </section>
             </section>
+
+            <section id="reviews" class="grid">
+                <h2 class="hidden">Reviews of Clients</h2>
+                <section class="review box-color">
+                    <img src="img/stars.png" alt="five starts icons">
+                    <p>Lorem Ipsum is simply<br> dummy text of the<br> printing and typesetting<br> industry. Lorem Ipsum<br> has been the industry's<br> standard dummy text<br>ever.</p>
+                </section>
+                <section class="review box-color">
+                    <img src="img/stars.png" alt="five starts icons">
+                    <p>Lorem Ipsum is simply<br> dummy text of the<br> printing and typesetting<br> industry. Lorem Ipsum<br> has been the industry's<br> standard dummy text<br>ever.</p>
+                </section>
+                <section class="review box-color">
+                    <img src="img/stars.png" alt="five starts icons">
+                    <p>Lorem Ipsum is simply<br> dummy text of the<br> printing and typesetting<br> industry. Lorem Ipsum<br> has been the industry's<br> standard dummy text<br>ever.</p>
+                </section>
+            </section>
+
         </main>
     </div>
-    <div id="footer-con-full" class="box-color">
+
         <div class="container">
             <footer class="grid">
-                <nav id="footer-nav" class="box-color2">
+                <div id="footer-con-full" class="box-color">
+                <nav id="footer-nav">
                     <h2 class="hidden">Footer Navigation</h2>
+                    <ul>
+                        <li> <a href="index.html" class="active">Home</a></li>
+                        <li> <a href="products.html">Products</a></li>
+                        <li> <a href="contact.html">Contact</a></li>
+                        <li> <a href="aboutus.html">About Us</a></li>
+                    </ul>
                 </nav>
+                <form action="register.php" id="mainform-newsletter" method="post" class="box-color2">
+                    <h3>Newsletter</h3>
+                    <label for="email" class="hidden">Email Address: </label>
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                    <button class="button-web" id="button-footer">SEND</button>
+                </form>
+                </div>
             </footer>
+        </div>
         </div>
     </div>
     <script src="js/main.js"></script>
