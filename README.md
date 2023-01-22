@@ -15,7 +15,6 @@
 Michelle Duque De La Rosa
 Maria Camila Romero Contreras
 
-All images are copyright by The Beatles
 
 ## License
 
