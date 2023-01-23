@@ -1,3 +1,20 @@
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Info-box
+    6. Features
+    7. Reviews
+    8. Footer
+
+*/
+
+/* 1. ---General Styles--- */
+
 .container-cellphone{
     width: 388px;
     background-color: #fff;
@@ -6,13 +23,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+/* 2. Grid */
 
 .grid-cellphone{
     display: grid;
     grid-template-columns: repeat(4, 71px);
     grid-column-gap: 37px;
 }
+
+
+/* 3. Header */
 
 #main-header-cellphone{
     margin-top: 10px;
@@ -76,8 +96,12 @@
 
 }
 
+#hero-product-cellphone img{
+    width: 100%;
 
-/* Info-box */
+}
+
+/* 5. ---Info-Box--- */
 
 
 #info-box-cellphone{
@@ -138,7 +162,7 @@
 }
 
 
-/* 5. ---Features--- */
+/* 6. ---Features--- */
 
 #features-con-mobile{
     margin-top: 45px;
@@ -154,7 +178,9 @@
     /* preguntar a camila */
 }
 
-/* Reviews */
+
+
+/* 7. ---Info-Box--- */
 
 
 
@@ -174,7 +200,7 @@
     margin-top: 0px;
 }
 
-/* 6. ---Footer--- */
+/* 8. ---Footer--- */
 
  
 #footer-nav-mobile ul {
