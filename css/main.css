@@ -6,10 +6,13 @@
     2. Grid
     3. Header
     4. Main Hero Image
-    5. Features
-    6. Footer
+    5. Info-box
+    6. Features
+    7. Reviews
+    8. Footer
 
 */
+
 
 /* 1. ---General Styles--- */
 
@@ -22,6 +25,7 @@
     width: 1200px;
     margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 1px #333;
 }
 
 .box-color{
@@ -46,8 +50,6 @@ a {
 
 .grid{
     display: grid;
-    padding-left: 15px;
-    padding-right: 15px;
     grid-template-columns: repeat(12,70px);
     grid-column-gap: 30px;
 }
@@ -64,24 +66,32 @@ a {
     font-weight: lighter;
 }
 
-/* this is the exact same grid used in Adobe XD, we have recreated 
-the grid using CSS. It is a class becasue we will use multiple grids */
 
 
 /* 3. ---Header--- */
 
+#main-header{
+    margin-top: 10px;
+}
 
 #header-logo {
-    height: 100px;
-    width: 270px;
-    grid-column: 1/4
+    height: 121px;
+    width: 192px;
+    grid-column: 2/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-logo img{
+    width: 192px;
 }
 
 #header-nav{
     height: 70px;
     width: 570px;
     grid-column: 7/-1;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 #header-nav ul {
@@ -101,7 +111,8 @@ the grid using CSS. It is a class becasue we will use multiple grids */
  }
  
  #header-nav li a {
-    color: #dfdfdf;
+    color: #000000;
+    font-size: 25px;
  }
  
  #header-nav li a:hover {
@@ -117,17 +128,16 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 #hero-image{
     grid-column: 1/-1;
-    width: 1170px;
+    width: 1200px;
     height: 600px;
     grid-row: 1/3;   
     background-color: #DF6F8F;
 }
 
 #hero-product{
-    width: 500px;
     height: 550px;
     grid-row: 1/3;
-    grid-column: 7/11;
+    grid-column: 1/-1;
     margin: 20px;
     display: flex;
     justify-content: center;
@@ -135,7 +145,7 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 }
 
 #img-hero{
-    width: 100%;
+    width: 50%;
 }
 
 #tag-line{
@@ -147,7 +157,7 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 }
 
 
-/* Info-box */
+/* 5. ---Info-Box--- */
 
 #info{
     margin-top: 40px;
@@ -203,19 +213,47 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     font-weight: 400;
 }
 
-/* 5. ---Features--- */
+/* 6. ---Features--- */
 
 #features-con{
     margin-top: 45px;
 }
 
 .feature{
-    width: 388px;
-    height: 681px;
+    width: 400px;
+    height: 300px;
     background-color: #F8D97B;
+    grid-column: span 4;
+    padding-top: 80px;
 }
 
-/* Reviews */
+.feature img{
+    width: 300px;
+}
+
+
+#feature-2{
+    background-color: #F3D0E4 ;    
+
+}
+
+#feature-3{
+    background-color: #F7D2C5 ;
+}
+
+#feature-4{
+    background-color: #F3C588 ;
+}
+
+#feature-5{
+    background-color: #C0D8A1 ;
+}
+
+#feature-6{
+    background-color: #A9D5D0 ;
+}
+
+/* 7. ---Info-Box--- */
 
 .review{
     width: 400px;
@@ -230,14 +268,13 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 .review p{
     font-size: 15pt;
-    margin-top: 0px;
 }
 
-/* 6. ---Footer--- */
+/* 8. ---Footer--- */
 
  
 footer ul {
-    margin-top: 35px;
+    margin-top: 50px;
     margin-left: 30px;
     padding:0;
  }
@@ -259,7 +296,6 @@ footer ul {
 
 #footer-con-full{
     width: 1200px;
-    height: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #F26967;
 }
@@ -276,7 +312,7 @@ footer ul {
 #mainform-newsletter{
     width: 160px;
     height: 180px;
-    margin-top: 15px;
+    margin-top: 33px;
     grid-column: 5/10;
     margin-left: 100px;
  }
@@ -316,7 +352,7 @@ footer ul {
     background-color: #FEEF42;
     border: #707070;
     color: #707070;
-    font-size: 12px;
+    font-size: 17px;
     justify-content: center;
     align-items: center;
     display:flex;
