@@ -24,7 +24,8 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Archivo Narrow', Arial, Helvetica, sans-serif;
+    font-size: 18px;
     border: solid 1px #333;
 }
 
