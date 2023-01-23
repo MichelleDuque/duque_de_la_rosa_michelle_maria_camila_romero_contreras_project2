@@ -1,6 +1,6 @@
-# PROJECT 2
+# MISS KIWI
 
-
+Website for Miss Kiwi drink from the company Pelta Brewing 
 
 ## Contributing
 
@@ -13,8 +13,10 @@
 ## Credits
 
 Michelle Duque De La Rosa
+
 Maria Camila Romero Contreras
 
+All images are copyright by Pelta Brewing 
 
 ## License
 
