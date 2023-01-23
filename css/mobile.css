@@ -21,13 +21,18 @@
 }
 
 #header-logo-mobile {
-    height: 121px;
+    height: 98.52px;
     width: 157px;
     grid-column: 1/2;
     margin-left: 15px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
-
+#header-logo-mobile img {
+    width: 157px;
+}
 
 #header-nav-mobile{
     grid-column: 3/-1;
@@ -38,8 +43,8 @@
     width: 71px;
     height: 71px;
     transition: all .5s ease;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
@@ -52,7 +57,7 @@
 
 
 #hero-cellphone{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #hero-image-cellphone{
@@ -135,16 +140,16 @@
 
 /* 5. ---Features--- */
 
-#features-con{
+#features-con-mobile{
     margin-top: 45px;
 }
 
-.feature{
+.feature-mobile{
     width: 388px;
-    height: 300px;
+    height: 681px;
 }
 
-.feature img{
+.feature-mobile img{
     width: 388px; 
     /* preguntar a camila */
 }
@@ -246,10 +251,8 @@
     height: 47px;
     position: absolute;
     right: 590px;
+    top: 3630px;
  }
-
-
- 
 
 
 #newsletter-footer{
